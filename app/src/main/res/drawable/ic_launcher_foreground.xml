@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Guitar Fretboard Neck Base -->
+    <path
+        android:fillColor="#FF2A2421"
+        android:pathData="M38,18 L70,18 L70,90 L38,90 Z" />
+
+    <!-- Frets -->
+    <path
+        android:strokeColor="#FFA0A0A0"
+        android:strokeWidth="1.5"
+        android:pathData="M38,28 L70,28 M38,44 L70,44 M38,60 L70,60 M38,76 L70,76" />
+
+    <!-- Inlay Dot -->
+    <path
+        android:fillColor="#FFE0E0E0"
+        android:pathData="M54,52 A3,3 0 1,1 54,51.99 Z" />
+
+    <!-- Strings -->
+    <path
+        android:strokeColor="#FFD4AF37"
+        android:strokeWidth="1.8"
+        android:pathData="M43,18 L43,90 M47,18 L47,90 M51,18 L51,90" />
+    <path
+        android:strokeColor="#FFE8D5A0"
+        android:strokeWidth="1.2"
+        android:pathData="M57,18 L57,90 M61,18 L61,90 M65,18 L65,90" />
+
+    <!-- Glowing Active Note Dot -->
+    <path
+        android:fillColor="#FFFFB300"
+        android:pathData="M51,60 A6,6 0 1,1 51,59.99 Z" />
+    <path
+        android:fillColor="#FFFFE082"
+        android:pathData="M51,60 A3,3 0 1,1 51,59.99 Z" />
+</vector>

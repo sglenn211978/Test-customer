@@ -1,0 +1,6 @@
+{
+  "name": "Fretboard Mastery",
+  "description": "Interactive guitar neck navigation, interval training, and audio ear training app.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
